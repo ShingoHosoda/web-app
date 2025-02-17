@@ -37,6 +37,6 @@
 
 - Notion
 
-## CI/CD
+### CI/CD
 
 - GitHub Actions
