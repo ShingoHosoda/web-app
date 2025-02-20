@@ -20,9 +20,10 @@ INSERT INTO todo(title, duedate, completed) VALUES('タイトル11', '2025-03-01
 -- Read
 SELECT * FROM todo;
 -- Update
-UPDATE todo SET completed = TRUE WHERE id = '7ac91684-9ee0-4877-9921-d0c281c7aead';
+UPDATE todo SET completed = TRUE WHERE id = '2cf28074-ecea-4daa-becf-1a15bb67c805';
+UPDATE todo SET completed = TRUE WHERE id = 'f915093e-204f-48b0-b069-1eaeae953a5c';
 -- Delete
-DELETE FROM todo WHERE id = '94bf5f2b-6fa4-493e-92c8-03230fa6e534';
+DELETE FROM todo WHERE id = 'f915093e-204f-48b0-b069-1eaeae953a5c';
 -- Sort
 SELECT * FROM todo ORDER BY title ASC;
 SELECT * FROM todo ORDER BY title DESC;
