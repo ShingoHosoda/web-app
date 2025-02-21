@@ -1,6 +1,8 @@
 SHOW databases;
-CREATE DATABASE todo;
-USE todo;
+CREATE DATABASE practice;
+USE practice;
+-- CREATE DATABASE todo;
+-- USE todo;
 CREATE TABLE todo(
   id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
   title VARCHAR(255) NOT NULL,
