@@ -1,6 +1,6 @@
 export type TypeTodo = {
   id: number,
   title: string,
-  dueDate: string,
+  dueDate: Date,
   completed: boolean,
 }
