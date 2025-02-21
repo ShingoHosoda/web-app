@@ -1,6 +1,7 @@
 SHOW databases;
 CREATE DATABASE practice;
 USE practice;
+DROP DATABASE practice;
 -- CREATE DATABASE todo;
 -- USE todo;
 CREATE TABLE todo(
