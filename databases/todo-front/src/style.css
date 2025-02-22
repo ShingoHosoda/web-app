@@ -4,6 +4,8 @@ html {
 }
 
 body {
+  font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic",
+  sans-serif;
   background-color: #1e1e1e;
   color: #f0f8ff;
 }
