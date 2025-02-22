@@ -8,10 +8,10 @@ app.use(express.static("public"));
 app.use(express.urlencoded({ extended: false }));
 
 const connection = createConnection({
-  host: "localhost",
-  user: "root",
-  password: "gokugoku200",
-  database: "practice",
+  host: "LOCALHOST",
+  user: "ROOT",
+  password: "PASSWORD",
+  database: "DATABASENAME",
 });
 
 const read = (response: Response, connection: Connection) => {
