@@ -9,9 +9,9 @@ app.use(express.urlencoded({ extended: false }));
 
 const connection = createConnection({
   host: "localhost",
-  user: "USER",
-  password: "PASSWORD",
-  database: "DATABASE_NAME",
+  user: "root",
+  password: "gokugoku200",
+  database: "practice",
 });
 
 const read = (response: Response, connection: Connection) => {
